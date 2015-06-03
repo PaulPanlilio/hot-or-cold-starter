@@ -24,7 +24,7 @@
 		guessCount = 0;
 		clearGuess();
 		clearInput();
-		log_feedback();
+		log_feedback('Make your Guess!');
 	}
 	// Function to generate a random secret number between 1 and 100 using the random() method:
 	function randomGenSecNum() {	
