@@ -1,4 +1,9 @@
  $(document).ready(function(){
+
+ 	/* Check if the user is ready to play */
+confirm("Are you ready to play?");
+
+alert("Please click on the WHAT? link on the upper left side of the monitor for the instructions");
 		
 	/*--- Display information modal box ---*/
   	$(".what").click(function(){
