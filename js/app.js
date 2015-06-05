@@ -3,7 +3,9 @@
  	/* Check if the user is ready to play */
 confirm("Are you ready to play?");
 
-alert("Please click on the WHAT? link on the upper left side of the monitor for the instructions");
+prompt("What's your age?");
+
+alert("You're good to go! Get ready to play! Please click on the 'WHAT?' link on the upper left side of the monitor for the instructions");
 		
 	/*--- Display information modal box ---*/
   	$(".what").click(function(){
